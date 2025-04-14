@@ -1,0 +1,35 @@
+id: WARPED_MESQUITE_TREES
+type: FEATURE
+
+distributor:
+  type: PADDED_GRID
+  width: 6
+  padding: 2
+  salt: 1249
+
+locator:
+  type: AND
+  locators:
+    - type: TOP
+      range: &range
+        min: 0
+        max: 319
+    - type: PATTERN
+      range: *range
+      pattern:
+        type: MATCH_AIR
+        offset: 0
+    - type: PATTERN
+      range: *range
+      pattern:
+        type: MATCH_SET
+        blocks:
+          - minecraft:light_blue_concrete_powder
+          - minecraft:cyan_concrete_powder
+          - minecraft:end_stone
+        offset: -1
+
+structures:
+  distribution:
+    type: CONSTANT
+  structures: warped_mesquite_tree_procedural

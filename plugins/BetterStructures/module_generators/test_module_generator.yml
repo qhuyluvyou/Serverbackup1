@@ -1,0 +1,13 @@
+radius: 2
+edges: true
+startModule:
+- MegaModules_MineshaftPack_Middle1.schem
+- MegaModules_MineshaftPack_Middle2.schem
+- MegaModules_MineshaftPack_Middle3.schem
+minChunkY: 0
+maxChunkY: 0
+chunkSize: 0
+debug: false
+generateInstantly: true
+delayBetweenPastes: 0
+pasteBatchSize: 1

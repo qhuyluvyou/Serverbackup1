@@ -1,0 +1,15 @@
+biome-size: 1 # Size of each biome. Default is 1, the higher the number, the bigger the biomes. Decimals are allowed, and you may set a number less than 1.
+
+biome-pool: # Biomes used to generate into the world. To disable a biome, you can delete the line of the biome you want to prevent from generating, or you can set the weight to 0.
+  - BASALTIC_DELTAS: 5
+  - BLOODLESS_UNDERGROWTH: 3
+  - BLOODY_REMNANTS: 3
+  - CORRUPTED_WASTES: 7
+  - CRIMSON_FOREST: 6
+  - CRYSTALLINE_VELDTS: 1
+  - FLAMING_HELLSCAPES: 5
+  - LIFELESS_SPIRES: 3
+  - SERRATED_MOUNTAINS: 4
+  - SOUL_VALLEY: 2
+  - TORRID_CRAGS: 4
+  - WARPED_FOREST: 6

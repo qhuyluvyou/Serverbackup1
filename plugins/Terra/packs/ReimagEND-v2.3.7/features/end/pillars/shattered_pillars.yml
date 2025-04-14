@@ -1,0 +1,36 @@
+id: SHATTERED_PILLARS
+type: FEATURE
+
+distributor:
+  type: SAMPLER
+  sampler:
+    type: POSITIVE_WHITE_NOISE
+    salt: 6821
+  threshold: 0.003
+
+locator:
+  type: AND
+  locators:
+    - type: SURFACE
+      range: &range
+        min: 40
+        max: 319
+    - type: PATTERN
+      range: *range
+      pattern:
+        type: MATCH
+        block: minecraft:end_stone
+        offset: -1
+    - type: PATTERN
+      range: *range
+      pattern:
+        type: MATCH_AIR
+        offset: 0
+
+structures:
+  distribution:
+    type: WHITE_NOISE
+  structures: 
+    - shattered_pillar_procedural: 150
+    - giant_obsidian_pillar: 2
+    - tilted_giant_obsidian_pillar: 1

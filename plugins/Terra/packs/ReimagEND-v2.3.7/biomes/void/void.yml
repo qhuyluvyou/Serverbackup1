@@ -1,0 +1,9 @@
+id: VOID
+type: BIOME
+extends: [ BASE_VOID, EQ_VOID ]
+vanilla: minecraft:the_void
+color: $biomes/colors.yml:VOID
+
+palette:
+  - BLOCK:minecraft:end_stone: 319
+

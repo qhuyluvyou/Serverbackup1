@@ -1,0 +1,10 @@
+isEnabled: true
+structureType:
+- UNDERGROUND_SHALLOW
+- UNDERGROUND_DEEP
+treasureFilename: treasure_overworld_underground.yml
+validBiomesV2:
+- minecraft:lush_caves
+- minecraft:custom
+- terra:overworld/overworld/lush_caves
+- terra:overworld/overworld/lush_sea_caves

@@ -1,0 +1,49 @@
+id: FOUNTAIN_ISLAND
+type: FEATURE
+
+# Mound of endstone that end fountain spawns on top of
+
+distributor:
+  type: POINTS
+  points:
+    - x: 0
+      z: 0
+    - x: 62
+      z: 0
+    - x: 53
+      z: 44
+    - x: 12
+      z: 59
+    - x: -12
+      z: 59
+    - x: -53
+      z: 44
+    - x: -62
+      z: 0
+    - x: -53
+      z: -44
+    - x: -12
+      z: -59
+    - x: 12
+      z: -59
+    - x: 53
+      z: -44
+
+locator:
+  type: AND
+  locators:
+    - type: RANDOM
+      height: &range
+        min: 55
+        max: 65
+      amount: 1
+    - type: PATTERN
+      range: *range
+      pattern:
+        type: MATCH_AIR
+        offset: 0
+
+structures:
+  distribution:
+    type: CONSTANT
+  structures: fountain_island

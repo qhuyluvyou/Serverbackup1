@@ -1,0 +1,10 @@
+source:
+  type: SAMPLER
+  biomes:
+    - ocean: 2
+    - deep-ocean: 1
+  sampler:
+    dimensions: 2
+    type: FBM
+    sampler:
+      type: OPEN_SIMPLEX_2

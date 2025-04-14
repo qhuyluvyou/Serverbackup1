@@ -1,0 +1,8 @@
+id: SANDSTONE_WETLANDS
+type: BIOME
+extends: [ EQ_BUTTES_WETLANDS, SANDSTONE_ARCHIPELAGO ]
+color: $biomes/colors.yml:SANDSTONE_WETLANDS
+
+features:
+  flora:
+    - CACTUS_SPARSE

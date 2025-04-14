@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 100.103.111.30
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1744621931701
+  login: 1744621742316
+money: '0'
+last-account-name: qhuy1123
+lastlocation:
+  world: 44d44801-9a4a-488f-a73b-cb3b87d43d4f
+  world-name: world
+  x: 0.0
+  y: 103.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 44d44801-9a4a-488f-a73b-cb3b87d43d4f
+  world-name: world
+  x: -35.33800007446968
+  y: 91.31100696112308
+  z: -280.14499313236706
+  yaw: -171.90005493164062
+  pitch: 32.99999237060547

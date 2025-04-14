@@ -1,0 +1,23 @@
+id: LIGHT_GRAY_POWDER_END
+type: PALETTE
+
+layers:
+  - materials:
+      - minecraft:light_gray_concrete_powder: 3
+      - minecraft:light_gray_concrete: 2
+      - minecraft:end_stone: 5
+    layers: 1
+sampler:
+  type: WHITE_NOISE
+  amplitude: 1
+  warp:
+    type: "OPEN_SIMPLEX_2"
+    frequency: 0.9
+  sampler:
+    type: FBM
+    octaves: 2
+    sampler:
+      type: "CELLULAR"
+      return: "CellValue"
+      frequency: 0.5
+      salt: 9345

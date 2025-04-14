@@ -1,0 +1,8 @@
+id: JUNGLE_FLATS
+type: BIOME
+extends: [ EQ_PLAIN_PEAKS, JUNGLE ]
+color: $biomes/colors.yml:JUNGLE_FLATS
+
+tags:
+  - LAND_CAVES
+  - USE_RIVER_TEMPERATE_SWAMP

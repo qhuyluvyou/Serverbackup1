@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "uuid": "01163afa-3c18-365c-ad64-a8ca0f0338a6",
+    "name": ".qhuyluvvvyou",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "00000000-0000-0000-0009-01f55e5ee61c",
+    "name": ".qhuyluvvvyou",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "5c97abea-eab9-389c-b60d-5e491549ffd6",
+    "name": "qhuy1123",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

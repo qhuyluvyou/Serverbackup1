@@ -1,0 +1,26 @@
+id: FOUNTAIN_SPIKES
+type: FEATURE
+
+# Rib cage like spikes surrounding fountain
+
+distributor:
+  type: POINTS
+  points:
+    - x: 0
+      z: 0
+
+locator:
+  type: AND
+  locators:
+    - type: TOP
+      range: &range
+        min: 0
+        max: 80
+      pattern:
+        type: MATCH_SOLID
+        offset: -1
+
+structures:
+  distribution:
+    type: CONSTANT
+  structures: fountain_spikes

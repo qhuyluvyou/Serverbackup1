@@ -1,0 +1,38 @@
+powerType: UNIQUE
+eliteScript:
+  TriggerManager:
+    Events:
+    - EliteMobDamagedByPlayerEvent
+    Zone:
+      shape: CYLINDER
+      radius: 4
+      height: 1
+      Target:
+        targetType: SELF
+    Actions:
+    - action: PUSH
+      vValue: 0,1,0
+      Target:
+        targetType: SELF
+    - action: PLACE_BLOCK
+      material: MAGMA_BLOCK
+      duration: 60
+      Target:
+        targetType: ZONE_FULL
+        offset: 0,-1,0
+      wait: 30
+    - action: PLACE_BLOCK
+      material: FIRE
+      duration: 60
+      Target:
+        targetType: ZONE_FULL
+        offset: 0,0,0
+      Conditions:
+        Target:
+          targetType: ACTION_TARGET
+        locationIsAir: true
+      wait: 30
+    Cooldowns:
+      local: 500
+      global: 300
+# Generated with https://magmaguy.com/webapp/webapp.html !

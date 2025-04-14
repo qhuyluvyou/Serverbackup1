@@ -1,0 +1,56 @@
+biomes: 
+  type: PIPELINE
+  resolution: 2
+  initial-size: 48
+  blend:
+    amplitude: 1
+    sampler:
+      type: GAUSSIAN
+  pipeline:
+    source:
+      type: SAMPLER
+      biomes:
+        - nether: 1
+      sampler:
+        dimensions: 2
+        type: CONSTANT
+    stages:
+      - type: REPLACE
+        from: nether
+        to: $options.yml:biome-pool
+        sampler:
+          dimensions: 2
+          type: CELLULAR
+          return: CellValue
+          salt: 69420101
+          frequency: 0.03 / ${options.yml:biome-size}
+      - type: FRACTAL_EXPAND
+        sampler:
+          type: WHITE_NOISE
+      - type: FRACTAL_EXPAND
+        sampler:
+          type: WHITE_NOISE
+      - type: FRACTAL_EXPAND
+        sampler:
+          type: WHITE_NOISE
+      - type: SMOOTH
+        sampler:
+          type: WHITE_NOISE
+      - type: SMOOTH
+        sampler:
+          type: WHITE_NOISE
+      - type: SMOOTH
+        sampler:
+          type: WHITE_NOISE
+      - type: SMOOTH
+        sampler:
+          type: WHITE_NOISE
+      - type: SMOOTH
+        sampler:
+          type: WHITE_NOISE
+      - type: SMOOTH
+        sampler:
+          type: WHITE_NOISE
+      - type: SMOOTH
+        sampler:
+          type: WHITE_NOISE

@@ -1,0 +1,21 @@
+id: AETHER_BRAMBLE_WILDS
+type: BIOME
+extends: [ BASE_AETHER, EQ_AETHER_DEFAULT ]
+color: $biomes/colors.yml:AETHER_BRAMBLE_WILDS
+vanilla: minecraft:the_end
+
+colors:
+  grass: 0x635229
+  foliage: 0x705f36
+
+palette:
+  - PODZOL: 319
+
+features:
+  trees:
+    - BRAMBLE_VINES
+    - BRAMBLES
+  flora:
+    - GRASS
+    - TALL_GRASS
+    - FERNS
