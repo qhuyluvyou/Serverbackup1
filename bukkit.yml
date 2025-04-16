@@ -30,10 +30,3 @@ ticks-per:
   ambient-spawns: 1
   autosave: 6000
 aliases: now-in-commands.yml
-worlds:
-  world:
-    generator: Terra:OVERWORLD
-  world_nether:
-    generator: Terra:TARTARUS
-  world_the_end:
-    generator: Terra:REIMAGEND
